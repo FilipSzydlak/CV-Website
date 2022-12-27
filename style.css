@@ -3,7 +3,7 @@ body {
     font-family: Arial;
     color: #333333;
     background-image: url("images/background.jpeg");
-    padding: 40px 0;
+    padding: 40px;
 }
 
 section,
@@ -60,7 +60,7 @@ img {
 }
 
 
-header address ul {
+header ul {
     list-style: none;
     padding: 0;
     font-style: normal;
