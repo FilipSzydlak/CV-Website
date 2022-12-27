@@ -63,6 +63,16 @@ header address ul {
     width: 250px;
 }
 
+.header-center-element { // filipszydłak etc
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.inline{
+    margin-top: 40px;
+    display: inline-block;
+}
+
 .address-line-item {
     font-size: 16px;
     margin-bottom: 15px;
@@ -139,5 +149,31 @@ header address ul {
 }
 
 .cv-download-link:active {
+    text-decoration: underline;
+}
+
+
+.github-download-link {
+    border: 2px solid cornflowerblue;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.5s, color 0.5s;
+    box-shadow: 0 0 20px grey;
+}
+
+.github-download-link:hover {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.github-download-link:focus {
+    outline: none;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.github-download-link:active {
     text-decoration: underline;
 }
