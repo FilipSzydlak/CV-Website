@@ -1,8 +1,8 @@
 
 body {
     font-family: Arial;
-    background-color: #333333;
-/ / background-image: url("images/background.jpg");
+    color: #333333;
+    background-image: url("images/background.jpeg");
     padding: 40px 0;
 }
 
@@ -24,6 +24,10 @@ span {
 
 p {
     line-height: 1.5;
+}
+
+ul li {
+    margin-bottom: 20px;
 }
 
 
@@ -51,6 +55,7 @@ img {
     width: 960px;
     margin: 0 auto;
     background-color: white;
+    border-radius: 40px;
 
 }
 
