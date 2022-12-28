@@ -182,3 +182,8 @@ header ul {
 .github-download-link:active {
     text-decoration: underline;
 }
+
+.footer{
+    text-align: center;
+    color: azure;
+}
